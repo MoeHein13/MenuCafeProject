@@ -194,7 +194,7 @@ h2 {
   /* background-color: #3a0a0a; */
   position: relative;
   padding: 1.25rem;
-  border: 3px dashed var(--wf-dash);
+  border: 1px solid var(--wf-dash);
   border-radius: 22px;
   background-color: var(--cream-md);
   @media (width < 625px) {

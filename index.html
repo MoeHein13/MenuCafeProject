@@ -17,16 +17,20 @@
       <div class="page-header-layout">
         <div class="logo-header">
           <img src="./images/logo.jpg" alt="logo" />
-          <div>Mad Bites Cafe & Desserts <span>{Menu}</span></div>
+          <div>Mad Bites Cafe & Desserts <span>Menu</span></div>
         </div>
         <nav class="primary-nav">
           <ul>
-            <li>Signatures</li>
-            <li>Burnt Cheese</li>
-            <li>Cold Brew</li>
-            <li>Coffee</li>
-            <li>Non Coffee</li>
-            <li>Macha & Chocolate</li>
+            <li class="nav-item"><a href="#signature">Signatures</a></li>
+            <li class="nav-item"><a href="#burntCheese">Burnt Cheese</a></li>
+            <li class="nav-item"><a href="#coldBrew">Cold Brew</a></li>
+            <li class="nav-item"><a href="#coffee-section">Coffee</a></li>
+            <li class="nav-item">
+              <a href="#non-coffee-section">Non Coffee</a>
+            </li>
+            <li class="nav-item">
+              <a href="#macha-section">Macha & Chocolate</a>
+            </li>
           </ul>
         </nav>
       </div>
@@ -34,7 +38,7 @@
     <main>
       <div class="wrapper">
         <!-- <h2>Mad Bites' Signatures</h2> -->
-        <section class="hero">
+        <section class="hero" id="signature">
           <div class="hero-header">Mad Bites' Signatures</div>
           <div class="hero-grid">
             <div class="signature-card">
@@ -93,7 +97,7 @@
         </section>
       </div>
       <div class="wrapper">
-        <section class="burnt-cheese">
+        <section class="burnt-cheese" id="burntCheese">
           <div class="hero-header">Burnt Cheese Series</div>
           <div class="hero-grid">
             <div class="signature-card">
@@ -164,7 +168,7 @@
         </section>
       </div>
       <div class="wrapper">
-        <section class="cold_brew">
+        <section class="cold_brew" id="coldBrew">
           <div class="hero-header">Cold Brew Series</div>
           <div class="hero-grid">
             <div class="signature-card">
@@ -244,7 +248,7 @@
       </div>
 
       <div class="wrapper">
-        <section class="coffee">
+        <section class="coffee" id="coffee-section">
           <div class="hero-header">Coffee</div>
           <div class="classic-coffee">
             <table>
@@ -353,7 +357,7 @@
       </div>
 
       <div class="wrapper">
-        <section class="non-coffee">
+        <section class="non-coffee" id="non-coffee-section">
           <div class="hero-header">NON COFFEE</div>
           <div class="refreshers">
             <table>
@@ -486,7 +490,7 @@
       </div>
 
       <div class="wrapper">
-        <section class="matcha-chocolate">
+        <section class="matcha-chocolate" id="macha-section">
           <div class="hero-header">Matcha & Chocolate</div>
           <div class="matcha">
             <table>
@@ -571,5 +575,12 @@
         </section>
       </div>
     </main>
+    <footer>
+      <div class="item-label">Mad Bites</div>
+      <div class="hero-header">It's Madly Good</div>
+      <div>Open Daily 9:00 - 20:00</div>
+      <div>No (33), Bo Yar Nyunt Street, Dagon Township</div>
+    </footer>
+    <script src="./index.js"></script>
   </body>
 </html>

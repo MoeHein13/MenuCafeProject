@@ -53,12 +53,22 @@
 * {
   box-sizing: border-box;
   margin: 0;
+  scroll-behavior: smooth;
 }
 body {
   background-color: var(--cream-bg);
   font-family: "Playfair Display", sans-serif;
-
   color: var(--dark-maroon);
+  scrollbar-gutter: stable;
+  padding-top: 130px;
+}
+
+footer {
+  margin-block: 20px;
+  padding: 1rem;
+  border-top: 1px solid var(--dark-maroon);
+  text-align: center;
+  line-height: 2rem;
 }
 
 .page-header {
@@ -66,10 +76,12 @@ body {
   padding: 1rem;
   width: 100%;
   padding-block-end: 0.5rem;
-  position: sticky;
+  position: fixed;
   top: 0;
-  z-index: 1;
+  left: 0;
+  z-index: 10;
   font-family: "Playfair Display", sans-serif;
+  margin: 0;
   /* font-family: var(--ff-accent-500); */
 
   @media (width < 625px) {
@@ -142,8 +154,33 @@ h2 {
   }
 }
 
+/* .sig-logo { */
+/* background-color: var(--pink-lt); */
+/* color: var(--brand-red); */
+/* font-weight: bold; */
+/* } */
+
 .primary-nav > ul > li {
-  border: 2px dashed var(--pink-lt);
+  border: 1px solid var(--pink-lt);
+  border-radius: 22px;
+  padding: 0.5rem;
+}
+
+.primary-nav > ul > li > a {
+  color: var(--cream-bg);
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.primary-nav > ul > li.active {
+  background-color: var(--pink-lt);
+}
+.primary-nav > ul > li.active > a {
+  color: var(--brand-red);
+  font-weight: bold;
+}
+.nav-item {
   border-radius: 22px;
   padding: 0.5rem;
 }
@@ -192,6 +229,7 @@ h2 {
 .non-coffee,
 .matcha-chocolate {
   /* background-color: #3a0a0a; */
+  scroll-margin-top: 100px;
   position: relative;
   padding: 1.25rem;
   border: 1px solid var(--wf-dash);
@@ -199,6 +237,12 @@ h2 {
   background-color: var(--cream-md);
   @media (width < 625px) {
     padding: 0.75rem;
+    scroll-margin-top: 126px;
+  }
+}
+.hero {
+  @media (width<625px) {
+    scroll-margin-top: 150px;
   }
 }
 @media (width < 625px) {

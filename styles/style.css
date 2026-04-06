@@ -344,14 +344,21 @@ h2 {
   align-items: center;
   @media (width < 625px) {
     background-color: transparent;
-    max-inline-size: 200px;
+    max-inline-size: 100px;
     padding: 0;
     font-size: var(--fs-300);
     font-weight: 500;
   }
 }
-
+.best-seller {
+  position: relative;
+}
+.best-seller-2 {
+  position: relative;
+}
 .stamp_1 {
+  position: absolute;
+  left: 300px;
   display: inline-block;
   border: 2px solid #a81c1c;
   color: #a81c1c;
@@ -365,8 +372,15 @@ h2 {
   outline-offset: 1px;
   line-height: 1;
   vertical-align: middle;
+  transform: rotate(-8deg);
+  @media (width<625px) {
+    left: 240px;
+  }
 }
+
 .stamp_2 {
+  position: absolute;
+  left: 300px;
   display: inline-block;
   border: 2px solid #a81c1c;
   color: #a81c1c;
@@ -380,6 +394,10 @@ h2 {
   outline-offset: 1px;
   line-height: 1;
   vertical-align: middle;
+  transform: rotate(-8deg);
+  @media (width<625px) {
+    left: 240px;
+  }
 }
 
 .classic-coffee,

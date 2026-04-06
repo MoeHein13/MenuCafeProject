@@ -275,7 +275,7 @@ h2 {
 .signature-card {
   display: flex;
   align-items: center;
-  gap: 35px;
+  gap: 25px;
   border-radius: 12px;
   /* border: 2px dashed var(--wf-dash); */
   background-color: var(--cream-bg);
@@ -299,6 +299,9 @@ h2 {
   height: 100px;
   border-radius: 22px;
   margin: 0;
+  object-fit: cover;
+  object-position: center;
+  flex-shrink: 0;
   @media (width < 625px) {
     width: 52px;
     height: 52px;
@@ -330,6 +333,7 @@ h2 {
     gap: 0;
   }
 }
+
 .price-row {
   font-size: var(--fs-500);
   background-color: var(--row-bg);
@@ -340,11 +344,42 @@ h2 {
   align-items: center;
   @media (width < 625px) {
     background-color: transparent;
-    max-inline-size: 100px;
+    max-inline-size: 200px;
     padding: 0;
     font-size: var(--fs-300);
     font-weight: 500;
   }
+}
+
+.stamp_1 {
+  display: inline-block;
+  border: 2px solid #a81c1c;
+  color: #a81c1c;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 2px 6px;
+  border-radius: 3px;
+  outline: 1px solid #a81c1c;
+  outline-offset: 1px;
+  line-height: 1;
+  vertical-align: middle;
+}
+.stamp_2 {
+  display: inline-block;
+  border: 2px solid #a81c1c;
+  color: #a81c1c;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 2px 6px;
+  border-radius: 3px;
+  /* outline: 1px solid var(--brand-red); */
+  outline-offset: 1px;
+  line-height: 1;
+  vertical-align: middle;
 }
 
 .classic-coffee,

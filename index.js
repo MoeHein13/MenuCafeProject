@@ -59,20 +59,20 @@ window.addEventListener("scroll", () => {
 
   let current = "";
 
-  const scrollToBottom =
+  /*  const scrollToBottom =
     window.innerHeight + window.scrollY >= document.body.offsetHeight - 100;
-
-  if (scrollToBottom) {
+ */
+  /*  if (scrollToBottom) {
     current = "macha-section";
-  } else {
-    sections.forEach((section) => {
-      const sectionTop = section.getBoundingClientRect().top;
+  } else  */
 
-      if (sectionTop <= 150) {
-        current = section.id;
-      }
-    });
-  }
+  sections.forEach((section) => {
+    const sectionTop = section.getBoundingClientRect().top;
+
+    if (sectionTop <= 150) {
+      current = section.id;
+    }
+  });
 
   navLinks.forEach((link) => {
     link.parentElement.classList.remove("active");

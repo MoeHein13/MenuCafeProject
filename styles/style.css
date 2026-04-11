@@ -61,7 +61,10 @@ body {
   font-family: "Quicksand", sans-serif;
   color: var(--dark-maroon);
   scrollbar-gutter: stable;
-  padding-top: 130px;
+  padding-top: 110px;
+  @media (width < 625px) {
+    padding-block-start: 160px;
+  }
 }
 
 footer {
@@ -194,6 +197,15 @@ h2 {
   .primary-nav > ul > li {
     min-height: 10px;
     padding: 0.25rem;
+    min-height: 10px;
+  }
+
+  .primary-nav > ul > li:last-child {
+    grid-column: 2;
+    justify-self: center;
+    width: 130px;
+    /* padding-inline: 0.25rem; */
+    /* width: 100%; */
   }
 }
 .wrapper {
@@ -240,12 +252,12 @@ h2 {
   @media (width < 625px) {
     padding: 0.75rem;
     /* TakeNote */
-    scroll-margin-top: 128px;
+    scroll-margin-top: 160px;
   }
 }
 .hero {
   @media (width<625px) {
-    scroll-margin-top: 150px;
+    scroll-margin-top: 300px;
   }
 }
 @media (width < 625px) {

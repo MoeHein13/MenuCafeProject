@@ -1,5 +1,5 @@
 const sections = document.querySelectorAll(
-  ".hero, .burnt-cheese , .cold_brew, .coffee, .non-coffee, .matcha-chocolate",
+  ".hero, .burnt-cheese , .cold_brew, .coffee, .non-coffee, .matcha-chocolate,.desserts",
 );
 
 const navLinks = document.querySelectorAll(".primary-nav a");

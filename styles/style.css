@@ -228,7 +228,8 @@ h2 {
 .cold_brew,
 .coffee,
 .non-coffee,
-.matcha-chocolate {
+.matcha-chocolate,
+.desserts {
   /* background-color: #3a0a0a; */
   scroll-margin-top: 100px;
   position: relative;
@@ -238,7 +239,8 @@ h2 {
   background-color: var(--cream-md);
   @media (width < 625px) {
     padding: 0.75rem;
-    scroll-margin-top: 126px;
+    /* TakeNote */
+    scroll-margin-top: 128px;
   }
 }
 .hero {
@@ -273,6 +275,7 @@ h2 {
 }
 
 .signature-card {
+  position: relative;
   display: flex;
   align-items: center;
   gap: 25px;
@@ -350,19 +353,14 @@ h2 {
     font-weight: 500;
   }
 }
-.best-seller {
-  position: relative;
-}
-.best-seller-2 {
-  position: relative;
-}
-.stamp_1 {
+.stamp {
   position: absolute;
-  left: 300px;
+  top: 20px;
+  left: 390px;
   display: inline-block;
   border: 2px solid #a81c1c;
   color: #a81c1c;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 800;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -374,31 +372,34 @@ h2 {
   vertical-align: middle;
   transform: rotate(-8deg);
   @media (width<625px) {
-    left: 240px;
+    font-size: 10px;
+    left: 265px;
+    top: 10px;
+    transform: rotate(-10deg);
   }
 }
 
-.stamp_2 {
-  position: absolute;
-  left: 300px;
-  display: inline-block;
-  border: 2px solid #a81c1c;
-  color: #a81c1c;
-  font-size: 10px;
-  font-weight: 800;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  padding: 2px 6px;
-  border-radius: 3px;
-  /* outline: 1px solid var(--brand-red); */
-  outline-offset: 1px;
-  line-height: 1;
-  vertical-align: middle;
-  transform: rotate(-8deg);
-  @media (width<625px) {
-    left: 240px;
-  }
-}
+/* .stamp_2 { */
+/* position: absolute; */
+/* left: 300px; */
+/* display: inline-block; */
+/* border: 2px solid #a81c1c; */
+/* color: #a81c1c; */
+/* font-size: 10px; */
+/* font-weight: 800; */
+/* letter-spacing: 0.1em; */
+/* text-transform: uppercase; */
+/* padding: 2px 6px; */
+/* border-radius: 3px; */
+/* outline: 1px solid var(--brand-red); */
+/* outline-offset: 1px; */
+/* line-height: 1; */
+/* vertical-align: middle; */
+/* transform: rotate(-8deg); */
+/* @media (width<625px) { */
+/* left: 240px; */
+/* } */
+/* } */
 
 .classic-coffee,
 .special-coffee,

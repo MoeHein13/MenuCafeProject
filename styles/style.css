@@ -394,6 +394,17 @@ h2 {
   }
 }
 
+.stamp.stamp--tiramisu {
+  left: auto;
+  right: 100px;
+  top: 18px;
+  @media (width < 625px) {
+    left: 200px;
+    right: auto;
+    top: 10px;
+  }
+}
+
 /* .stamp_2 { */
 /* position: absolute; */
 /* left: 300px; */

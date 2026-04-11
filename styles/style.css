@@ -61,7 +61,7 @@ body {
   font-family: "Quicksand", sans-serif;
   color: var(--dark-maroon);
   scrollbar-gutter: stable;
-  padding-top: 110px;
+  padding-top: 130px;
   @media (width < 625px) {
     padding-block-start: 160px;
   }
@@ -243,7 +243,7 @@ h2 {
 .matcha-chocolate,
 .desserts {
   /* background-color: #3a0a0a; */
-  scroll-margin-top: 100px;
+  scroll-margin-top: 110px;
   position: relative;
   padding: 1.25rem;
   border: 1px solid var(--wf-dash);
@@ -382,12 +382,14 @@ h2 {
   outline-offset: 1px;
   line-height: 1;
   vertical-align: middle;
+  white-space: nowrap;
   transform: rotate(-8deg);
+
   @media (width<625px) {
     font-size: 10px;
-    left: 265px;
+    left: 275px;
     top: 10px;
-    transform: rotate(-10deg);
+    transform: rotate(-15deg);
   }
 }
 

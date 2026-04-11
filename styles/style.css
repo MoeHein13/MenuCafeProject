@@ -370,7 +370,7 @@ h2 {
   top: 20px;
   left: 390px;
   display: inline-block;
-  width: max-content;
+  /* width: max-content; */
   border: 2px solid #a81c1c;
   color: #a81c1c;
   font-size: 12px;
@@ -381,16 +381,16 @@ h2 {
   border-radius: 3px;
   outline: 1px solid #a81c1c;
   outline-offset: 1px;
-  line-height: 1;
-  vertical-align: middle;
-  white-space: nowrap;
+  /* line-height: 1; */
+  /* vertical-align: middle; */
+  /* white-space: nowrap; */
   transform: rotate(-8deg);
 
   @media (width<625px) {
     font-size: 10px;
     left: 250px;
     top: 10px;
-    transform: rotate(-20deg);
+    transform: rotate(-25deg);
   }
 }
 

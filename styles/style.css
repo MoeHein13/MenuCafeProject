@@ -400,7 +400,7 @@ h2 {
   top: 18px;
   @media (width < 625px) {
     left: auto;
-    right: 100px;
+    right: 80px;
     top: 10px;
   }
 }

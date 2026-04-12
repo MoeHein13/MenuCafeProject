@@ -368,7 +368,7 @@ h2 {
 .stamp {
   position: absolute;
   top: 20px;
-  left: 390px;
+  right: 10px;
   display: inline-block;
   width: max-content;
   border: 2px solid #a81c1c;
@@ -388,7 +388,7 @@ h2 {
 
   @media (width<625px) {
     font-size: 8px;
-    left: 253px;
+    right: 5px;
     top: 10px;
     transform: rotate(-25deg);
   }
@@ -399,8 +399,8 @@ h2 {
   right: 100px;
   top: 18px;
   @media (width < 625px) {
-    left: 200px;
-    right: auto;
+    left: auto;
+    right: 100px;
     top: 10px;
   }
 }

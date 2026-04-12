@@ -69,7 +69,7 @@ window.addEventListener("scroll", () => {
   sections.forEach((section) => {
     const sectionTop = section.getBoundingClientRect().top;
 
-    if (sectionTop <= 140) {
+    if (sectionTop <= 160) {
       current = section.id;
     }
   });

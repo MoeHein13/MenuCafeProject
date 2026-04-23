@@ -156,6 +156,16 @@ h2 {
     gap: 0.75rem;
     text-align: center;
   }
+
+  @media (625px <= width <= 1024px) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    font-size: 0.65rem;
+    font-weight: 600;
+    gap: 0.75rem;
+    text-align: center;
+  }
 }
 
 /* .sig-logo { */

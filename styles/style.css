@@ -368,7 +368,7 @@ h2 {
 .stamp {
   position: absolute;
   top: 20px;
-  right: 10px;
+  right: 5px;
   display: inline-block;
   width: max-content;
   border: 2px solid #a81c1c;

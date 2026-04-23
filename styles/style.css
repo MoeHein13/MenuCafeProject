@@ -398,7 +398,7 @@ h2 {
 
   @media (width<625px) {
     font-size: 8px;
-    right: 5px;
+    right: 15px;
     top: 10px;
     transform: rotate(-25deg);
   }
@@ -410,7 +410,17 @@ h2 {
   top: 18px;
   @media (width < 625px) {
     left: auto;
-    right: 50px;
+    right: 95px;
+    top: 10px;
+  }
+}
+.stamp.stamp--mango {
+  left: auto;
+  right: 100px;
+  top: 18px;
+  @media (width < 625px) {
+    left: auto;
+    right: 125px;
     top: 10px;
   }
 }

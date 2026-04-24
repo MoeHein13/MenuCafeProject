@@ -398,7 +398,7 @@ h2 {
 
   @media (width<625px) {
     font-size: 8px;
-    right: 8px;
+    right: 6px;
     top: 10px;
     transform: rotate(-25deg);
   }
